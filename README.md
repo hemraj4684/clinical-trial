@@ -31,7 +31,7 @@ Please follow the below steps to run project:-
 4) rename .env.copy to .env
 4) php artisan key:generate
 5) create database clinical_trial in mysql.
-6) update DB_DATABASE=clinical_test in .env file
+6) update DB_DATABASE=clinical_trial in .env file
 7) php artisan migrate
 
 Installation Done. Now hit http://localhost/clinical-trial/public/subject
