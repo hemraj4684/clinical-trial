@@ -21,4 +21,19 @@ headaches they are eligible and are assigned to Cohort A and the results show �
 screening form)
 • If the applicant is Over 18 years of age and experiences daily migraine headaches they are
 eligible and are assigned to Cohort B and the results show ‘Candidate <name> is assigned to
-Cohort B’ (where <name> Is the subject’s first name captured on the screening
+Cohort B’ (where <name> Is the subject’s first name captured on the screening.
+===========================================================================================
+Solution:-
+Please follow the below steps to run project:- 
+1) git clone https://github.com/hemraj4684/clinical-trial.git
+2) cd clinical-trial/
+3) composer install
+4) rename .env.copy to .env
+4) php artisan key:generate
+5) create database clinical_trial in mysql.
+6) update DB_DATABASE=clinical_test in .env file
+7) php artisan migrate
+
+Installation Done. Now hit http://localhost/clinical-trial/public/subject
+try to save subject data.
+
